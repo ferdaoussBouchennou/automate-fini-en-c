@@ -1,0 +1,11 @@
+digraph {
+initial [shape = none, label = ""]
+final [shape = none, label = ""]
+initial->0
+0->1 [label=a]
+1->2 [label=b]
+3->4 [label=b]
+4->5 [label=c]
+2->3 [label="ε"]
+5->final
+}

@@ -1,0 +1,9 @@
+digraph {
+    initial [shape = none, label = ""]
+    final [shape = none, label = ""]
+    final [shape = none, label = ""]
+    initial->0
+    0->1 [label=a]
+    1->2 [label=b]
+    2->final
+}

@@ -1,0 +1,13 @@
+digraph {
+    initial [shape = none, label = ""]
+    initial [shape = none, label = ""]
+    final [shape = none, label = ""]
+    initial->0
+    initial->2
+    0->1 [label=a]
+    1->0 [label=b]
+    1->2 [label=b]
+    2->1 [label=a]
+    2->0 [label=a]
+    2->final
+}

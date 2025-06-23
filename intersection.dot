@@ -1,0 +1,4 @@
+digraph {
+initial [shape = none, label = ""]
+initial->0
+}
